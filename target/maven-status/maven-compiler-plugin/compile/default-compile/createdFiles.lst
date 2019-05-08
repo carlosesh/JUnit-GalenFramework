@@ -1,0 +1,4 @@
+com\galenframework\testapp\components\WelcomePage.class
+com\galenframework\testapp\components\LoginPage.class
+com\galenframework\testapp\tests\LoginTest.class
+com\galenframework\testapp\BaseTest.class
