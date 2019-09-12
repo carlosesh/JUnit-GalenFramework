@@ -16,4 +16,10 @@ public class LoginTest extends BaseTest {
     welcomePage.clickLoginButton();
     Assert.assertTrue(loginPage.isLoginHeaderDisplayed());
   }
+
+  @Test
+  public void asd() {
+    welcomePage.clickLoginButton();
+    Assert.assertTrue(loginPage.isLoginHeaderDisplayed());
+  }
 }
