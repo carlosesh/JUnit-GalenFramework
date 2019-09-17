@@ -4,7 +4,6 @@ import io.restassured.builder.RequestSpecBuilder;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
