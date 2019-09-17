@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62b4da0-6fd7-49c2-be7e-23b49bd76d6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/zippopotam/read/GetTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/zippopotam/read/GetTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/WebServicesUtils.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,20 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="527">
+              <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,6 +76,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -96,7 +104,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/GetTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/resources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/Resources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/RequestBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/ReadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" />
       </list>
     </option>
@@ -145,23 +161,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testapp" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,8 +169,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
-              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568690942588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568699273100" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -213,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetTests">
+  <component name="RunManager" selected="JUnit.GetTests.getRequest">
     <configuration name="GetTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GalenFramework" />
       <extension name="coverage">
@@ -294,8 +292,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetTests" />
         <item itemvalue="JUnit.GetTests.getRequest" />
+        <item itemvalue="JUnit.GetTests" />
         <item itemvalue="JUnit.GetTests.getRequest1" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.loginButtonShouldBePresent" />
@@ -316,35 +314,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetTests_getRequest - 2019.09.16 at 17h 13m 13s.xml">
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 16m 40s.xml">
       <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.16 at 17h 15m 00s.xml">
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 18m 01s.xml">
       <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.16 at 22h 20m 53s.xml">
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 18m 49s.xml">
       <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.16 at 22h 21m 06s.xml">
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 26m 51s.xml">
       <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 23m 55s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 33m 58s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 24m 12s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 32s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 24m 19s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 52s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 25m 54s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 57s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 26m 04s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 45m 34s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests - 2019.09.16 at 22h 26m 30s.xml">
-      <configuration name="GetTests" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 46m 17s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -357,10 +355,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="1273" y="-7" width="1295" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20636183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21700405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,20 +482,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/http/ContentType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,10 +507,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/RequestSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="153" column="59" lean-forward="true" selection-start-line="153" selection-start-column="59" selection-end-line="153" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -520,8 +563,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="527">
+          <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
