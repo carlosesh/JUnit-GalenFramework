@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62b4da0-6fd7-49c2-be7e-23b49bd76d6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JunitGalenFramework-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JunitGalenFramework-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GalenFramework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/tests/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,20 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="416">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,29 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/BaseTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/WelcomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,9 +67,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,19 +95,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/GetTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="width" value="1941" />
-    <option name="height" value="2112" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1909" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="2123" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +154,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testapp" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -176,19 +162,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testapp" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568258635948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568690942588" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -221,7 +213,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
+  <component name="RunManager" selected="JUnit.GetTests">
+    <configuration name="GetTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GalenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.zippopotam.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.zippopotam.read" />
+      <option name="MAIN_CLASS_NAME" value="us.zippopotam.read.GetTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTests.getRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GalenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.zippopotam.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.zippopotam.read" />
+      <option name="MAIN_CLASS_NAME" value="us.zippopotam.read.GetTests" />
+      <option name="METHOD_NAME" value="getRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTests.getRequest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GalenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.zippopotam.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.zippopotam.read" />
+      <option name="MAIN_CLASS_NAME" value="us.zippopotam.read.GetTests" />
+      <option name="METHOD_NAME" value="getRequest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GalenFramework" />
       <extension name="coverage">
@@ -233,22 +272,6 @@
       <option name="PACKAGE_NAME" value="com.galenframework.testapp.tests" />
       <option name="MAIN_CLASS_NAME" value="com.galenframework.testapp.tests.LoginTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.clickingLoginButtonShouldRedirectYouToAnotherPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GalenFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galenframework.testapp.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galenframework.testapp.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.galenframework.testapp.tests.LoginTest" />
-      <option name="METHOD_NAME" value="clickingLoginButtonShouldRedirectYouToAnotherPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,9 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetTests" />
+        <item itemvalue="JUnit.GetTests.getRequest" />
+        <item itemvalue="JUnit.GetTests.getRequest1" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.loginButtonShouldBePresent" />
-        <item itemvalue="JUnit.LoginTest.clickingLoginButtonShouldRedirectYouToAnotherPage" />
       </list>
     </recent_temporary>
   </component>
@@ -291,35 +316,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2019.02.14 at 11h 51m 59s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.16 at 17h 13m 13s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.02.14 at 11h 53m 00s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.16 at 17h 15m 00s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.02.14 at 11h 56m 37s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.16 at 22h 20m 53s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_loginButtonShouldBePresent - 2019.05.08 at 06h 37m 45s.xml">
-      <configuration name="LoginTest.loginButtonShouldBePresent" configurationId="JUnit" />
+    <history-entry file="GetTests_getRequest - 2019.09.16 at 22h 21m 06s.xml">
+      <configuration name="GetTests.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_clickingLoginButtonShouldRedirectYouToAnotherPage - 2019.05.08 at 06h 37m 54s.xml">
-      <configuration name="LoginTest.clickingLoginButtonShouldRedirectYouToAnotherPage" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 23m 55s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.05.08 at 06h 38m 06s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 24m 12s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.05.08 at 06h 38m 54s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 24m 19s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_clickingLoginButtonShouldRedirectYouToAnotherPage - 2019.07.08 at 18h 36m 16s.xml">
-      <configuration name="LoginTest.clickingLoginButtonShouldRedirectYouToAnotherPage" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 25m 54s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest_loginButtonShouldBePresent - 2019.08.31 at 17h 36m 25s.xml">
-      <configuration name="LoginTest.loginButtonShouldBePresent" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 26m 04s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.08.31 at 17h 37m 06s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="GetTests - 2019.09.16 at 22h 26m 30s.xml">
+      <configuration name="GetTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -333,8 +358,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20159046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20636183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,8 +371,8 @@
       <window_info anchor="bottom" id="CheckStyle" order="1" weight="0.3086516" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.33047545" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.33047545" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32969603" />
@@ -400,19 +426,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="374">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -422,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="238">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -430,9 +453,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GalenFramework.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/WelcomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="340">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -444,10 +470,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/specification/RequestSenderOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/response/ValidatableResponseOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/http/ContentType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="416">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
