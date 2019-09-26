@@ -11,13 +11,13 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import ws.BaseTest;
-import ws.in.reqres.tests.implementations.ReadImp;
+import ws.in.reqres.tests.implementations.ServiceImp;
 import ws.utilities.ICrud;
 import ws.utilities.Paths;
 import ws.utilities.ValidateUtils;
 
 @RunWith(Parameterized.class)
-public class Get extends BaseTest {
+public class GetTestsWithFilters extends BaseTest {
 
   @Parameters(name = "{index}:   {0}/{1}?{2}")
   public static Collection<Object[]> countryZipCodesAndPlaces() {
@@ -57,16 +57,17 @@ public class Get extends BaseTest {
     pathParams.put("api", api);
     pathParams.put("path", path);
 
+  }
+
+  @Test
+  public void getRequest() {
     requestSpecification = new RequestSpecBuilder()
         .setBaseUri(Paths.reqresUri)
         .addPathParams(pathParams)
         .addQueryParam(filter, filterValue)
         .build();
-  }
 
-  @Test
-  public void getRequest() {
-    reqres = new ReadImp();
+    reqres = new ServiceImp();
     response = reqres.getRequest(requestSpecification);
 
     ValidateUtils.validateResponse(response, gsonPath, expectedValue);

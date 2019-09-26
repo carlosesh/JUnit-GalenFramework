@@ -14,7 +14,7 @@ import ws.utilities.ICrud;
 import ws.utilities.Paths;
 import ws.utilities.ValidateUtils;
 import ws.BaseTest;
-import ws.zippopotam.implementations.ReadImp;
+import ws.zippopotam.implementations.ServiceImp;
 
 @RunWith(Parameterized.class)
 public class GetTests extends BaseTest {
@@ -56,7 +56,7 @@ public class GetTests extends BaseTest {
   @Test
   public void getRequest() {
 
-    zippopotamus = new ReadImp();
+    zippopotamus = new ServiceImp();
     response = zippopotamus.getRequest(requestSpecification);
 
     ValidateUtils.validateResponse(response, "places[0].'place name'", location);

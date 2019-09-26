@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import ws.utilities.ICrud;
 
-public class ReadImp implements ICrud {
+public class ServiceImp implements ICrud {
 
   public Response getRequest(RequestSpecification requestSpec) {
 
@@ -16,5 +16,21 @@ public class ReadImp implements ICrud {
         .all()
         .when()
         .get("{countryCode}/{zipCode}");
+  }
+
+  public Response postRequest(RequestSpecification requestSpec) {
+    return null;
+  }
+
+  public Response putRequest(RequestSpecification requestSpec) {
+    return null;
+  }
+
+  public Response patchRequest(RequestSpecification requestSpec) {
+    return null;
+  }
+
+  public Response deleteRequest(RequestSpecification requestSpec) {
+    return null;
   }
 }
