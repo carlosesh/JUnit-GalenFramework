@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62b4da0-6fd7-49c2-be7e-23b49bd76d6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/create/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/create/Put.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/delete/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/implementations/ReadImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/update/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/utilities/ICrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ws/utilities/Paths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/us/zippopotam/read/GetTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/us/zippopotam/read/GetTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utilities/WebServicesUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/galenframework/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/galenframework/components/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/galenframework/components/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/galenframework/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/zippopotam/read/GetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/zippopotam/implementations/ReadImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ws/utilities/ValidateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/components/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/components/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galenframework/testapp/tests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/zippopotam/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/zippopotam/read/GetTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/ws/ReadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utilities/ws/ValidateUtils.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,46 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/implementations/ReadImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/Get.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="268">
+              <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,14 +66,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>&lt;codeStyleSettings language=&quot;Java&quot;</find>
+      <find>Doc</find>
+      <find>JavaDoc</find>
       <find>Javadoc</find>
     </findStrings>
   </component>
@@ -108,16 +102,30 @@
         <option value="$PROJECT_DIR$/src/main/java/utilities/Resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/WebServicesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/ReadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/zippopotam/ReadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/utilities/ICrud.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/zippopotam/ReadImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/zippopotam/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/in/reqres/Get.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/Get.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/utilities/Paths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/GetTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/zippopotam/implementations/ReadImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/zippopotam/read/GetTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/utilities/ValidateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/implementations/ReadImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/Get.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -128,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,6 +167,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JunitGalenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GalenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
               <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,15 +214,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="zippopotam" type="462c0819:PsiDirectoryNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568699583647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569458833220" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -191,6 +239,10 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.galenframework.testapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ws.in.reqres.tests.read" />
+      <recent name="ws.in.reqres.tests.implementations" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -211,18 +263,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetTests.getRequest">
-    <configuration name="GetTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Get">
+    <configuration name="Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GalenFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="us.zippopotam.read.*" />
+          <option name="PATTERN" value="ws.in.reqres.tests.read.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="us.zippopotam.read" />
-      <option name="MAIN_CLASS_NAME" value="us.zippopotam.read.GetTests" />
+      <option name="PACKAGE_NAME" value="ws.in.reqres.tests.read" />
+      <option name="MAIN_CLASS_NAME" value="ws.in.reqres.tests.read.Get" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GalenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ws.zippopotam.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ws.zippopotam.read" />
+      <option name="MAIN_CLASS_NAME" value="ws.zippopotam.read.GetTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTests.getRequest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GalenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ws.zippopotam.read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ws.zippopotam.read" />
+      <option name="MAIN_CLASS_NAME" value="ws.zippopotam.read.GetTests" />
+      <option name="METHOD_NAME" value="getRequest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,48 +326,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTests.getRequest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get.getRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GalenFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="us.zippopotam.read.*" />
+          <option name="PATTERN" value="ws.in.reqres.tests.read.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="us.zippopotam.read" />
-      <option name="MAIN_CLASS_NAME" value="us.zippopotam.read.GetTests" />
-      <option name="METHOD_NAME" value="getRequest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GalenFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galenframework.testapp.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galenframework.testapp.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.galenframework.testapp.tests.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginButtonShouldBePresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GalenFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.galenframework.testapp.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.galenframework.testapp.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.galenframework.testapp.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginButtonShouldBePresent" />
+      <option name="PACKAGE_NAME" value="ws.in.reqres.tests.read" />
+      <option name="MAIN_CLASS_NAME" value="ws.in.reqres.tests.read.Get" />
+      <option name="METHOD_NAME" value="getRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get" />
+        <item itemvalue="JUnit.Get.getRequest" />
+        <item itemvalue="JUnit.GetTests.getRequest (1)" />
+        <item itemvalue="JUnit.GetTests (1)" />
         <item itemvalue="JUnit.GetTests.getRequest" />
-        <item itemvalue="JUnit.GetTests" />
-        <item itemvalue="JUnit.GetTests.getRequest1" />
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.LoginTest.loginButtonShouldBePresent" />
       </list>
     </recent_temporary>
   </component>
@@ -314,35 +366,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 16m 40s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 32m 11s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 18m 01s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 33m 00s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 18m 49s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 33m 29s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 26m 51s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 35m 21s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 33m 58s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 37m 02s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 32s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 38m 35s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 52s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 41m 45s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 42m 57s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 43m 17s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 45m 34s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 43m 25s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetTests_getRequest - 2019.09.17 at 00h 46m 17s.xml">
-      <configuration name="GetTests.getRequest" configurationId="JUnit" />
+    <history-entry file="Get_getRequest - 2019.09.25 at 19h 43m 49s.xml">
+      <configuration name="Get.getRequest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -355,22 +407,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="-7" width="1295" height="1415" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21700405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116500996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3257989" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32501948" />
       <window_info anchor="bottom" id="CheckStyle" order="1" weight="0.3086516" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.33047545" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3998441" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32943925" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3990647" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32969603" />
@@ -386,6 +438,20 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/Get.java</url>
+          <line>68</line>
+          <properties class="ws.in.reqres.tests.read.Get" method="getRequest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components.java" />
@@ -412,26 +478,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/CommonComponents.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/checkstyle/intellij-java-google-style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/checkstyle/google_checks.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/Tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/galenframework/components/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
@@ -441,7 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/galenframework/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -454,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/GalenFramework.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/components/WelcomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/galenframework/components/WelcomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
@@ -489,17 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/Resources.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -507,33 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galenframework/testapp/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/RequestSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/RequestSpecification.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -541,40 +553,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ValidateUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/checkstyle/intellij-java-google-style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/checkstyle/google_checks.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="221" column="29" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/galenframework/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/delete/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/utilities/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/GetTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/create/Put.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/create/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/update/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/zippopotam/implementations/ReadImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/zippopotam/read/GetTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/utilities/ICrud.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" column="95" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ws/ReadUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/utilities/ValidateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/zippopotam/read/GetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.1.1/rest-assured-4.1.1.jar!/io/restassured/builder/RequestSpecBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/implementations/ReadImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ws/in/reqres/tests/read/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
